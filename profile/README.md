@@ -1,18 +1,15 @@
-# 👗 Lolibrary 🌹
-
-Welcome to our GitHub!
+Welcome to our GitHub 👒!
 
 To get started with contributing, please see the [sakura](https://github.com/lolibrary/sakura) repository for our main website.
 
-Our tech stack is:
+Our main tech stack is: [Laravel][laravel] (PHP 8.5), [Filament][filament] (5+), Postgres 18 and Valkey, built on [Laravel Cloud][laravel-cloud].
 
-[website](https://lolibrary.org):
+Our services for hosting are [Fastly][fastly] and [Cloudflare][cloudflare] for almost everything.
 
-- [Laravel Cloud](https://cloud.laravel.com)
-- [Fastly](https://fastly.net) for image CDN
-- [Cloudflare](https://cloudflare.com) for R2 and Global CDN/HTTPS
-- [Laravel](https://laravel.com) (PHP 8.5) with [Filament](https://filamentphp.com) 5+
-- Postgres 18 for data storage.
-- Valkey for caching/sessions.
+The wiki (https://wiki.lolibrary.org) is closed-source MediaWiki with a few custom extensions on it, on dedicated hosting.
 
-[wiki](https://wiki.lolibrary.org): MediaWiki, with Postgres and Memcached backing it.
+[laravel-cloud]: https://cloud.laravel.com
+[laravel]: https://laravel.com
+[fastly]: https://fastly.net
+[filament]: https://filamentphp.com/docs/5.x/getting-started
+[cloudflare]: https://cloudflare.com
